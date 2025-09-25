@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoCulture</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <div class="logo">
+            <div class="logo"><img src="img/Logo Ecoculture 2025.PNG" alt="EcoCulture Logo"></div>
+        </div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav class="nav-menu" id="navMenu">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="index2.html">Évènement</a></li>
+            <li><a href="index3.html">À propos de nous</a></li>
+            <li><a href="index4.html">Contact</a></li>
+            <li><a href="index5.html">Offre d’emploi</a></li>
+        </ul>
+    </nav>
+
+  <!-- Overlay -->
+    <div class="overlay" id="overlay"></div>
+
+  <!-- career -->  
+    <section class="career-section">
+        <div class="career-content content-transition" id="careerContent">
+            <h1 class="career-title fade-in">Travailler chez Ecoculture ASBL</h1>
+            <p class="career-subtitle fade-in delay-1" id="contactInfo">
+                
+            </p>
+           
+            <div class="description fade-in delay-2" id="mainDescription">
+                Ecoculture Asbl est une organisation dont les actions sont basées sur la culture et l'écologie. 
+                Avec une expérience de plus de vingt ans dans la création d'animations socioculturelles reconnues par l’ONE, 
+                notre crédo est d'offrir aux jeunes des expériences passionnantes et enrichissantes qui favorisent la créativité, 
+                le respect de l'environnement et le travail d'équipe.
+                <br><br>
+                <strong>Nous recrutons des artistes de toutes disciplines:</strong>
+                <br>
+                Théâtre, cinéma, musique, danse, cirque, arts plastiques, etc. 
+                <br>afin de réaliser des spectacles, concerts et animations pluridisciplinaires. 
+                Travail à temps plein sous article 60.
+                <br><br>
+                Conditions: Allocataire CPAS / Esprit d’équipe, ouvert et curieux / Aisance avec le jeune public.
+            </div>
+            <div class="careers-section fade-in delay-3">
+                <button class="career-cta-button" id="mainButton">
+                    Contact Carrières : asbl.ecoculture@yahoo.fr
+                </button>
+            </div>
+        </div>
+        
+        <!-- open_career Section -->
+        <div class="open_career-grid">
+            <div class="open_career-card">
+                <h3 class="open_career-title">Profil Animateur Socioculturel</h3>
+                <p class="open_career-description">Adresse à toute personne voulant <br> acquérir une expérience <br> professionnelle dans ce domaine. </p>
+                <button class="open_career-btn" onclick="showJobDetails('job1')"> En savoir plus</button>
+            </div>
+            <div class="open_career-card">
+                <h3 class="open_career-title">Profil Metteur en Scène</h3>
+                <p class="open_career-description">Adresse à ceux qui ont déjà de <br> l’expérience dans le monde artistique. </p>
+                <button class="open_career-btn" onclick="showJobDetails('job2')"> En savoir plus</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="JS2.js"></script>
+
+</body>
+</html>
